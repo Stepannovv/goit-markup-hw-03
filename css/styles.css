@@ -209,7 +209,7 @@ ol {
   gap: 24px;
 }
 .aboutus-item {
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4))
 }
 
 .aboutus-text {
@@ -249,7 +249,7 @@ ol {
 .ourteam-item {
   background-color: #ffffff;
 
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
 }
 .ourteam-item,
