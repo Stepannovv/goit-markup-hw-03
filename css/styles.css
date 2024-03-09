@@ -44,15 +44,12 @@ ol {
 /** ===========NAV=================**/
 .header {
   border-bottom: 1px solid #e7e9fc;
-  width: 1158px;
 }
 .nav-header {
   display: flex;
   align-items: center;
 }
 .header-container {
-  width: 1440px;
-  height: 72px;
   display: flex;
   align-items: center;
 }
@@ -65,12 +62,19 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: flex;
+  align-items: center;
   margin-right: 76px;
 }
 .header-logo-studio {
   color: #2e2f42;
 }
 .header-nav-menu-list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
+.header-nav-menu-link {
   display: flex;
   gap: 40px;
   padding: 24px 0;
@@ -108,7 +112,6 @@ ol {
   align-content: flex-start;
   justify-content: flex-end;
   flex-direction: row;
-
   gap: 40px;
 }
 
@@ -205,8 +208,10 @@ ol {
   display: flex;
   gap: 24px;
 }
-
+.aboutus-item {
+  flex-basis: calc((100% - 3 * 24px));
 }
+
 .aboutus-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -239,11 +244,11 @@ ol {
   gap: 24px;
 }
 .container-team-list {
-  padding: 32px 0;ś
+  padding: 32px 0;
 }
 .ourteam-item {
   background-color: #ffffff;
-  
+  flex-basis: calc((100% - 3 * 24px));
   border-radius: 0 0 4px 4px;
 }
 .ourteam-item,
@@ -286,7 +291,7 @@ ol {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 72px;  
+  margin-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
@@ -295,8 +300,7 @@ ol {
   row-gap: 48px;
 }
 .portfolio-item {
-  background-color: #ffffff;
-
+  width: calc((100% - 2 * 24px) / 3);
 }
 .container-portfolio-list {
   padding: 32px 16px;
@@ -325,7 +329,7 @@ ol {
   margin-bottom: 8px;
 }
 .portfolio-item-text {
-   font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
