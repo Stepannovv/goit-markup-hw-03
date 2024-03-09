@@ -1,3 +1,9 @@
+/** ===========BODY================**/
+
+* {
+  box-sizing: border-box;
+  max-width: 1440px;
+}
 h1,
 h2,
 h3,
@@ -18,7 +24,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-/** ===========BODY================**/
 
 body {
   font-family: "Roboto", sans-serif;
@@ -39,6 +44,7 @@ ol {
 /** ===========NAV=================**/
 .header {
   border-bottom: 1px solid #e7e9fc;
+  width: 1158px;
 }
 .nav-header {
   display: flex;
@@ -67,6 +73,7 @@ ol {
 .header-nav-menu-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-nav-menu-item {
   font-weight: 500;
@@ -198,8 +205,7 @@ ol {
   display: flex;
   gap: 24px;
 }
-.aboutus-item {
-  width: calc((100% - 3 * 24px) / 4);
+
 }
 .aboutus-text {
   font-family: "Roboto", sans-serif;
@@ -237,7 +243,7 @@ ol {
 }
 .ourteam-item {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  
   border-radius: 0 0 4px 4px;
 }
 .ourteam-item,
@@ -290,7 +296,7 @@ ol {
 }
 .portfolio-item {
   background-color: #ffffff;
-   width: calc((100% - 48px) / 3);
+
 }
 .container-portfolio-list {
   padding: 32px 16px;
