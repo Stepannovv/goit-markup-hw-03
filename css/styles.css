@@ -1,9 +1,4 @@
 /** ===========BODY================**/
-
-* {
-  box-sizing: border-box;
-  max-width: 1440px;
-}
 h1,
 h2,
 h3,
@@ -45,47 +40,6 @@ ol {
 /** ===========HEADER==============**/
 /** ===========NAV=================**/
 
-/* 
-
-
-
-.header-navigation {
-  display: flex;
-  align-items: center;
-
-}
-
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  padding: 24px 0;
-  margin-right: 76px;
-}
-
-.part-logo {
-  color: #2e2f42;
-}
-
-.header-list {
-  display: flex;
-  gap: 40px;
-}
-
-.header-list-item {}
-
-.header-list-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  padding: 24px 0;
-} */
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -106,9 +60,7 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
-  align-items: center;
-  padding: 24px;
+  padding: 24px 0;
   margin-right: 76px;
 }
 .header-logo-studio {
@@ -119,8 +71,7 @@ ol {
   gap: 40px;
 }
 .header-nav-menu-link {
-  display: flex;
-  gap: 40px;
+  display: block;
   padding: 24px 0;
 }
 .header-nav-menu-item {
@@ -159,12 +110,12 @@ ol {
 }
 
 .header-address-item {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-address-item:hover,
@@ -182,20 +133,18 @@ ol {
   padding-bottom: 188px;
 }
 .hero-slogan {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   max-width: 496px;
   margin: 0 auto;
 }
 
 .hero-button {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -239,7 +188,6 @@ ol {
 }
 
 .aboutus-subtittle {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -256,11 +204,6 @@ ol {
 }
 
 .aboutus-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 /** ===============================**/
@@ -272,7 +215,6 @@ ol {
 }
 
 .ourteam-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -291,13 +233,11 @@ ol {
 }
 .ourteam-item {
   background-color: #ffffff;
-
   width: calc((100% - 72px) / 3);
   border-radius: 0 0 4px 4px;
 }
-.ourteam-item,
+
 .ourteam-subtitle {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -307,16 +247,10 @@ ol {
   text-transform: capitalize;
   margin-bottom: 8px;
 }
-.ourteam-item,
+
 .ourteam-item-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 32px;
 }
 
 /** ===============================**/
@@ -327,7 +261,6 @@ ol {
 }
 
 .portfolio-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -351,46 +284,21 @@ ol {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.portfolio-item,
+
 .portfolio-item-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
+  margin-bottom: 8px;
+
   text-transform: capitalize;
 }
-.portfolio-item-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  padding-top: 32px;
-  margin-bottom: 8px;
-}
 .portfolio-item-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
 }
-.portfolio-item,
-.portfolio-item-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-align: center;
-}
+
 /** ===============================**/
 /** ===============================**/
 /** ===========FOOTER==============**/
@@ -398,8 +306,6 @@ ol {
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
-  display: flex;
-  flex-direction: column;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -422,8 +328,6 @@ ol {
   color: #f4f4fd;
 }
 .footer-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
